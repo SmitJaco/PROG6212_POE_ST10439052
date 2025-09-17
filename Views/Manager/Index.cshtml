@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Academic Manager - CMCS";
+}
+
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h2 class="fw-semibold">Academic Manager</h2>
+            <p class="text-muted">Prototype UI only — no logic implemented yet.</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Approve Claims</h5>
+                    <p class="card-text text-muted">Review verified claims and approve.</p>
+                    <a asp-action="ApproveClaims" class="btn btn-success mt-auto">Approve Claims</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Claim History and Approvals</h5>
+                    <p class="card-text text-muted">View full approval history.</p>
+                    <a asp-action="ClaimHistory" class="btn btn-light border mt-auto">View History</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
