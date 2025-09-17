@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PROG6212_POE_ST10439052.Controllers
 {
-    // Prototype controller for Programme Coordinator (no backend logic yet)
+    // Prototype controller for Programme Coordinator 
     public class CoordinatorController : Controller
     {
         public IActionResult Index()

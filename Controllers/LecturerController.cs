@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PROG6212_POE_ST10439052.Controllers
 {
-    // Prototype controller for Lecturer (no backend logic yet)
+    // Prototype controller for Lecturer 
     public class LecturerController : Controller
     {
         public IActionResult Index()
