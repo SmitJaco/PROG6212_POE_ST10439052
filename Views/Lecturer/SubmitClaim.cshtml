@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Submit Claim - Lecturer";
+}
+
+<div class="container py-4">
+    <h3 class="mb-3">Submit Claim</h3>
+    <p class="text-muted">Prototype form — inputs are non-functional placeholders.</p>
+
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label class="form-label">Hours Worked</label>
+            <input type="number" class="form-control" placeholder="e.g., 20" />
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Hourly Rate (R)</label>
+            <input type="number" class="form-control" placeholder="e.g., 350" />
+        </div>
+        <div class="col-12">
+            <label class="form-label">Notes</label>
+            <textarea class="form-control" rows="3" placeholder="Optional notes..."></textarea>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-primary">Submit (Prototype)</button>
+            <a asp-action="Index" class="btn btn-link">Back</a>
+        </div>
+    </form>
+</div>
+
+

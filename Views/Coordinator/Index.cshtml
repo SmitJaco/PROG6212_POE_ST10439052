@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Programme Coordinator - CMCS";
+}
+
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h2 class="fw-semibold">Programme Coordinator</h2>
+            <p class="text-muted">Prototype UI only — no logic implemented yet.</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Verify Claims</h5>
+                    <p class="card-text text-muted">Review and verify submitted claims.</p>
+                    <a asp-action="VerifyClaims" class="btn btn-primary mt-auto">Verify Claims</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Pending Claims List</h5>
+                    <p class="card-text text-muted">View claims awaiting verification.</p>
+                    <a asp-action="PendingClaims" class="btn btn-light border mt-auto">Pending Claims</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

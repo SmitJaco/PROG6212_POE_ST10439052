@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Track Claim Status - Lecturer";
+}
+
+<div class="container py-4">
+    <h3 class="mb-3">Track Claim Status</h3>
+    <p class="text-muted">Prototype list — sample items to illustrate UI.</p>
+
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>Claim ID</th>
+                    <th>Period</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Aug 2025</td>
+                    <td>R 7,000.00</td>
+                    <td><span class="badge text-bg-warning">Pending Verification</span></td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td>Jul 2025</td>
+                    <td>R 6,300.00</td>
+                    <td><span class="badge text-bg-success">Approved</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <a asp-action="Index" class="btn btn-link">Back</a>
+    </div>
+
+
