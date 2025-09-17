@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Approve Claims - Manager";
+}
+
+<div class="container py-4">
+    <h3 class="mb-3">Approve Claims</h3>
+    <p class="text-muted">Prototype table — actions are non-functional.</p>
+
+    <div class="table-responsive">
+        <table class="table table-striped align-middle">
+            <thead>
+                <tr>
+                    <th>Claim ID</th>
+                    <th>Lecturer</th>
+                    <th>Total</th>
+                    <th>Verified By</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Sam Jacobs</td>
+                    <td>R 7,000.00</td>
+                    <td>Coordinator A</td>
+                    <td>
+                        <button type="button" class="btn btn-success">Approve (Prototype)</button>
+                        <button type="button" class="btn btn-outline-danger ms-2">Reject (Prototype)</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <a asp-action="Index" class="btn btn-link">Back</a>
+</div>
+
+
